@@ -1,0 +1,168 @@
+body{
+	background: #000;
+	color: #fff;
+	font-family: Inter;
+}
+
+.container{
+	width: 550px; 
+	min-height: 719px;
+	margin: auto;
+	background: #1F2937;
+}
+
+.header{
+	height: 190px;
+	margin-top: 0;
+	background: #3A69D2;
+	text-align: center; 
+}
+
+h1{
+	font-size: 40px; 
+	padding-top: 59px;
+	margin-bottom: 0;
+	
+}
+.subtitle{
+	font-size: 16px; 
+	padding-top: 0px;
+	font-weight: 400;
+}
+
+.item-button{
+	width: 143px;
+	heigth: 45px;
+	margin-top: 41px; 
+	padding: 13px 13px; 
+
+	margin: 41px 9px 43px;
+	font-size: 14px; 
+	line-height: 16px; 
+	border-radius: 7px;
+	border: none;
+	background: #D1D4F4; 
+	color:#4A4E74;
+}
+
+#invoice-display-wrapper{
+	min-height: 150px; 
+	margin: 0 39px; 
+}
+
+#send-invoice-btn{
+	width: 473px;
+	heigth: 45px; 
+	background: #3A69D2;
+	padding: 13px 15px;
+	font-size: 16px; 
+	margin-top: 25px;
+	margin-bottom: 25px; 
+	border: none;
+	border-radius: 7px; 
+	color: white; 
+}
+
+button:hover{
+	border: 1px solid white;
+}
+
+#display-labels-wrapper{
+	min-height: 40px; 
+	display: flex; 
+}
+
+.label{
+	font-size: 12px; 
+	color: #D5D4D8;
+}
+
+#text-task{
+	width: 50%; 
+	text-align: left;
+}
+
+#text-notes{
+	margin-top: 20px; 
+	margin-bottom: 0;
+}
+
+#text-total{
+	width: 50%; 
+	text-align: rigth; 
+}
+
+#text-total-2{
+	margin-right: 0;
+	margin-top: 20px;
+	float: right;
+	float: top;
+	margin-bottom: 0px;
+}
+
+#total-amount{
+	text-align: right;
+	padding: 0;
+	width: 50%;
+}
+#notes-wrapper{
+	width: 50%;
+}
+
+#total-notes-wrapper{
+	min-height: 50px; 
+	display: flex;
+}
+
+#total-amount-wrapper{
+	display: flex; 
+}
+
+#total-div{
+	width: 50%;
+	text-align: right; 
+}
+
+#notes-div{
+	width: 50%;
+	text-align: left;
+}
+
+
+#display-tasks-wrapper{
+	min-height: 50px; 
+	display: flex; 
+}
+
+#name{
+	width: 50%;
+	text-align: left; 
+}
+.name{
+	font-size: 20px; 
+}
+
+#price{
+	width: 50%;
+	text-align: right; 
+}
+
+.price{
+	font-size: 24px;
+	line-height: 20px;
+}
+
+.dollar{
+	font-weigth: 300;
+	color: #8a8990;
+}
+
+#note{
+	font-size: 12px;
+	color:#D5D4D8;
+}
+
+h2{
+	font-size: 36px;
+	margin: 5px;
+}

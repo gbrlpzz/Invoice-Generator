@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Invoice Generator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+	<link href = 'https://rsms.me/inter/inter.css' rel = "stylesheet">
+</head>
+
+<body>
+	<div class = "container">
+		
+		<div class = "header">
+			<h1>Invoice Generator</h1>
+			<p class ="subtitle">Thank you for choosing GoodCorp, LLC</p>
+		</div>
+		
+		<center>
+			<div id ="buttons-wrapper">
+				<button id = "car-btn" class = "item-button">Wash Car: 10$</button>
+				<button id ="lawn-btn" class = "item-button">Mow Lawn: 20$</button>
+				<button id ="weeds-btn" class = "item-button">Pull Weeds: 30$</button>
+			</div>
+		</center>
+
+		<div id="invoice-display-wrapper">
+			
+			<div id="display-labels-wrapper">
+				<div id="text-task"  >
+					<p class="label">TASK</p>
+				</div>
+				<div id ="text-total">
+					<p style = "float: right;" class="label">TOTAL</p>
+				</div>
+			</div>
+			
+			<div id="display-tasks-wrapper">
+				<div id ="name">
+<!-- 					<p class ="name">Wash Car</p> -->
+				</div>
+
+				<div id ="price">
+<!-- 					<p class = "price"><span class ="dollar">$</span>10</p> -->
+				</div>
+			</div> 
+
+			<hr>
+
+			<div id="total-notes-wrapper">
+				<div id = "notes-wrapper">
+					<p id = "text-notes" class="label">NOTES</p>		
+				</div>
+				<div id = "total-amount">	
+					<p id = "text-total-2" class="label">TOTAL AMOUNT</p>
+				</div>
+			</div>
+
+			<div id= "total-amount-wrapper">
+
+				<div id="notes-div">
+					<p id= "note">We accept Credit Card, Cash and Paypal</p>
+				</div>
+				<div id = "total-div">
+					<h2 id = "total">$0</h2>
+				</div>
+			</div>
+		</div>
+
+		<center>
+		<div id ="invoice-btn-wrapper">
+			<button id="send-invoice-btn"><img src ="Icon.png" class="icon"> Send Invoice</button>
+		</div>
+		</center>
+		
+	</div>
+  <script src="script.js" ></script>
+</body>
+
+</html>
